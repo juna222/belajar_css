@@ -1,0 +1,30 @@
+.header{
+    background-color: aqua;
+    display:block;
+    height: 2000px;
+    height: 200px;
+}
+.change li{
+    display: inline;
+    text-decoration: none;
+    align-items: center;
+}
+h1{
+    background-color: yellow;
+    height: 100px;
+    display: none;
+
+}
+.main{
+    background-color: aquamarine;
+}
+.ini-span span{
+    background-color: blueviolet;
+    display: inline;
+    height: 3px;
+}
+a{
+    height: 20px;
+    width: 30px;
+    
+}

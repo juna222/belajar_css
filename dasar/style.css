@@ -1,0 +1,48 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+h1{
+    color: blue;
+    text-align: center;
+    text-shadow: black 5px,;
+    letter-spacing: 1rem;
+    word-spacing: 1rem;
+}
+p{
+    text-indent: 3em;
+    text-transform: uppercase;
+}
+.link-1 ul li a{
+    align-items: center;
+    display: flex;
+    color: aqua;
+    text-decoration: none;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.link-1 ul li a:hover {
+    color: yellowgreen;
+}
+
+.link-2 ul  li a{
+    color: violet;
+    text-decoration: none;
+    
+    
+}
+.ke-2:link{
+    color: blue;
+
+}
+.link-2 ul li a:hover{
+    color: yellow;
+    transition-delay: 0.1s;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+
+
+
