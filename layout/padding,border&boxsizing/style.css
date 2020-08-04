@@ -5,8 +5,9 @@ div{
 }
 .satu{
     background-color: aqua;
-    padding: 10px;
     border: 15px dashed;
+    padding: 10px 20px 30px 0;
+    display: block;
 }
 .dua{
     background-color: blueviolet;
