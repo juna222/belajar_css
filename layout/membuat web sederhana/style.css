@@ -1,5 +1,5 @@
 body{
-    font: 10px/20px arial, sans-serif;
+    font: 20px/30px arial, sans-serif;
     background-color: #eaeaea;
     color: #333;
 }
@@ -10,7 +10,9 @@ body{
     
 }
 .header{
+    background-color :white;
     padding: 20px;
+    padding-bottom: 10px;
 }
 .header .judul{
     font-size: 35px;
@@ -30,12 +32,48 @@ body{
 
 }
 .header a:hover{
-    background-color: lightskyblue;
+    border-bottom: 3px solid salmon;
     color: white;
+    transition: 1s ease;
+    transform: ;
 }
+
 .hero{
-    height: 250px;
+    height: 280px;
     background-image: url("code.png");
     background-size: cover;
+    background-position: 0 -180;
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid salmon;
+}
+.content{
+    padding: 20px;
+}
+.content h2{
+   font-size: 28;
+   font-weight: bold; 
+}
+.content .menulis{
+    font-size: 11px;
+    margin-top: -5px;
+}
+.content .menulis a{
+    color:  salmon;
+    text-decoration: none;
 
+}
+.content p{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+
+.footer{
+    background-color: #333;
+    padding: 5px;
+}
+.footer .copy{
+    color: #eaeaea;
+    font-size: 10px;
+    text-align: center;
 }
