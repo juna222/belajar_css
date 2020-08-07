@@ -1,0 +1,30 @@
+.container{
+    height: 400px;
+    width: 400px;
+    border: 2px solid #000000;
+    background-color: aqua;
+    margin: auto;
+
+}
+.class{
+ height: 100%;
+ width: 70px;
+ margin: 0 5px;
+ background-color:rebeccapurple;
+float: right;
+} 
+ 
+.cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ .cf {
+     *zoom: 1;
+ } */
